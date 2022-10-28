@@ -1,0 +1,153 @@
+*{
+  background-color: #F8F8F8;
+}
+.login{
+  width: 340px;
+  height: 740px;
+  margin: auto;
+}
+.ilustracion{
+  width: 180px;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
+.login h2{
+  font-family: serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+#formulario {
+ 
+  padding: 10px 10px;
+}
+
+.form-control {
+  margin-bottom: 7px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 7px;
+  font:weight 180px
+}
+
+.form-control input {
+  border: 1px #887E7E solid;
+  border-radius: 5px;
+  display: block;
+  margin: auto;
+  font-family: inherit;
+  font-size: 16px;
+  padding: 10px;
+  width: 80%;
+}
+.form-control, input:focus {
+  outline: none;
+}
+
+.form-control.ok input {
+  border: 0.1px solid;
+  border-color: #08ffc8;
+}
+.form-control.falla input {
+  border: 0.1px solid;
+  border-color: red;
+}
+
+#formulario button {
+  margin: auto;
+  background: #0B6EFE;
+  border:1px solid #0B6EFE;
+  border-radius: 5px;
+  margin-top: 20px;
+  color: #f6f6e9;
+  display: block;
+  width: 90%;
+  padding: 10px;
+  font-size: 18px;
+}
+.form-control p {
+  visibility: hidden;
+  position: absolute;
+  font-size: small;
+  font-weight: 200px;
+  text-align: right;
+}
+
+.form-control.falla p {
+  margin-top: 5px;
+  margin-left: 20px;
+  visibility: visible;
+  color:red;
+  display: inline-block;
+}
+.Olvidaste{
+  color: #887E7E;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 12px;
+  margin-left: 110px;
+  display: inline-block;
+  position: absolute;
+  margin-top: -10px;
+  margin-left: 170px;
+}
+
+.o{
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+.lineaaazul1{
+  height: 5px;
+  width: 90px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg,
+  rgba(255,255,255,1)20%,
+  rgba(58,136,249,1)70%,
+  rgba(11,110,254,1)100%);
+  display: inline-block;
+}
+.o h3{
+  font-family: inherit;
+  font-size: 13px;
+  color: #887E7E;
+  display: inline-block;
+}
+.lineaaazul2{
+  height: 5px;
+  width: 90px;
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg,
+  rgba(11,110,254,1)20%,
+  rgba(58,136,249,1)70%,
+  rgba(255,255,255,1)100%);
+  display: inline-block;
+}
+.redes{
+  width: 188px;
+  margin: auto;
+  margin-top: 20px;
+}
+.Logogoogle{
+  width: 40px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+.Logofacebook{
+  width: 40px;
+  margin-right: 30px;
+  vertical-align: middle;
+}
+.Logoapple{
+  width: 40px;
+  vertical-align: middle;
+}
+
+.franja{
+  width: 100%;
+}
